@@ -497,7 +497,7 @@
 
   <!--vendors-->
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="du" revision="du44" />
-  <project path="vendor/du" name="vendor_du" remote="du" revision="du44" />
+  <project path="vendor/du" name="v441spare/vendor_du" remote="github" revision="du44" />
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="du" revision="du44" />
   <project path="vendor/htc" name="vendor_htc" remote="du" revision="du44" />
   <project path="vendor/samsung" name="proprierary_vendor_samsung" remote="du" revision="du44" />
