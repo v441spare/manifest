@@ -7,6 +7,9 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
+           
+  <remote name="tm"
+           fetch="git://github.com/TheMuppets/" />         
 
   <remote  name="du"
            fetch="https://github.com/DirtyUnicorns-KitKat/" />
@@ -43,6 +46,15 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
+  <!-- My Shit -->
+  <project name="ValidusAOSP/android_kernel_motorola_msm8960-common" path="kernel/motorola/msm8960-common" remote="github" revision="vaosp" />
+  <project path="device/motorola/msm8960-common" name="CyanogenMod/android_device_motorola_msm8960-common" remote="github" revision="cm-11.0" />
+  <project path="device/motorola/qcom-common" name="ValidusAOSP/android_device_motorola_qcom-common" remote="github" revision="vaosp" />
+  <project path="hardware/qcom/media-caf" name="LiquidSmooth/android_hardware_qcom_media-caf" remote="github" revision="kitkat" />
+  <project path="hardware/qcom/display-caf" name="LiquidSmooth/android_hardware_qcom_display-caf" remote="github" revision="kitkat" />
+  <project path="hardware/qcom/audio-caf" name="LiquidSmooth/android_hardware_qcom_audio-caf" remote="github" revision="kitkat" />
+  <project name="v441spare/android_device_motorola_xt907" path="device/motorola/xt907" remote="github" revision="du44" />
+  <!-- end --> 
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -489,5 +501,5 @@
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="du" revision="du44" />
   <project path="vendor/htc" name="vendor_htc" remote="du" revision="du44" />
   <project path="vendor/samsung" name="proprierary_vendor_samsung" remote="du" revision="du44" />
-
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-11.0"
 </manifest>
