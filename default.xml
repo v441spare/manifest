@@ -438,7 +438,7 @@
   <project path="bionic" name="android_bionic" remote="du" revision="du44" />
   <project path="bootable/recovery" name="bootable_recovery" remote="du" revision="du44"/>
   <project path="development" name="development" remote="du" revision="du44" />
-  <project path="manifest" name="manifest" remote="du" revision="du44" />
+  <project path="manifest" name="v441spare/manifest" remote="github" revision="du44" />
   <project path="external/koush/Superuser" name="Superuser" remote="du" revision="du44" />
   <project path="external/koush/Widgets" name="Widgets" remote="du" revision="du44" />
   <project path="libcore" name="libcore" remote="du" revision="du44" />
