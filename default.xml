@@ -49,7 +49,7 @@
   <!-- My Shit -->
   <project name="ValidusAOSP/android_kernel_motorola_msm8960-common" path="kernel/motorola/msm8960-common" remote="github" revision="vaosp" />
   <project path="device/motorola/msm8960-common" name="CyanogenMod/android_device_motorola_msm8960-common" remote="github" revision="cm-11.0" />
-  <project path="device/motorola/qcom-common" name="LiquidSmooth/android_device_motorola_qcom-common" remote="github" revision="kitkat" />
+  <project path="device/motorola/qcom-common" name="v441spare/android_device_motorola_qcom-common" remote="github" revision="du44" />
   <project path="hardware/qcom/media-caf" name="LiquidSmooth/android_hardware_qcom_media-caf" remote="github" revision="kitkat" />
   <project path="hardware/qcom/display-caf" name="LiquidSmooth/android_hardware_qcom_display-caf" remote="github" revision="kitkat" />
   <project path="hardware/qcom/audio-caf" name="LiquidSmooth/android_hardware_qcom_audio-caf" remote="github" revision="kitkat" />
