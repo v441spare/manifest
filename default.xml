@@ -53,7 +53,7 @@
   <project path="hardware/qcom/media-caf" name="LiquidSmooth/android_hardware_qcom_media-caf" remote="github" revision="kitkat" />
   <project path="hardware/qcom/display-caf" name="LiquidSmooth/android_hardware_qcom_display-caf" remote="github" revision="kitkat" />
   <project path="hardware/qcom/audio-caf" name="LiquidSmooth/android_hardware_qcom_audio-caf" remote="github" revision="kitkat" />
-  <project name="v441spare/android_device_motorola_xt907" path="device/motorola/xt907" remote="github" revision="du44" />
+  <project name="v441spare/device_motorola_xt907" path="device/motorola/xt907" remote="github" revision="du44" />
   <!-- end --> 
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
